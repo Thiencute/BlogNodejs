@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\Fpoly\WEB207\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2678653358.index
+386207932.index
+1472986902.index
+332606932.index
+303554540.index
+3687656302.index
