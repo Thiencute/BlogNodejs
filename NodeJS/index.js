@@ -1,16 +1,16 @@
 const express = require('express')
+const morgan = require('morgan')
 const app = express()
 const port = 3000
 
+// app.use(morgan('combined'));
+
 app.get('/', (req, res) => {
   
- return res.send('Hello World!!~')
+ return res.send(`<h1 style="color:blue">Hello World!!~<h1>`)
 })
 
 app.listen(port, () => {
-  var x = 1;
-  var y = 2;
-  var z = x + y;
-  console.log(z);
+
     console.log(`Example app listening at http://localhost:${port}`)
   })
